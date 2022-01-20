@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 980px;
+    max-width: 70%;
+    margin: 100px auto;
+    display: flex;
+    gap: 5px;
+}
+
+.item {
+    flex-basis: 50%;
+}
+
+.right-section {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.main-heading {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    margin-top: 12px;
+}
+
+.secondary-heading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.content {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+img {
+    width: 250px;
+    max-width: 100%;
+}
+
+.names {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+span {
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    vertical-align: top;
+    writing-mode: vertical-lr;
+}
+
+.team--members {
+    max-width: 70%;
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.person--1 {
+    margin-bottom: 95px;
+}
+
+.person--2 {
+    margin-top: 95px;
+}
+
+.person--3 {
+    margin-bottom: 95px;
+}
+
+.person--4 {
+    margin-bottom: 95px;
+}
+
+.person--5 {
+    margin-top: 95px;
+}
+
+.person--6 {
+    margin-bottom: 95px;
+}
+
+/* footer link hover effect  */
+footer {
+    position: relative;
+    bottom: -12px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    color: #BDBDBD;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d3948c;
+    padding-bottom: 4px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+footer a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #d3948c;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+footer a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-width : 1025px) {
+    .main {
+        margin: 80px 23px 0;
+        max-width: 90%;
+        display: block;
+    }
+
+    .main-heading {
+        padding-left: 3%;
+        margin-bottom: 40px;
+    }
+
+    .right-section {
+        padding-left: 4%;
+        max-width: 90%;
+
+    }
+
+    .name {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .position {
+        font-size: 12px;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    .team--members {
+        gap: unset;
+        max-width: 98%;
+        padding: 7%
+    }
+
+    .person {
+        flex-basis: 50%;
+    }
+
+    .person--1 {
+        margin-bottom: 0px;
+        padding-right: 4%;
+    }
+
+    .person--2 {
+        margin-top: 75px;
+        padding-left: 4%;
+    }
+
+    .person--3 {
+        margin-bottom: 0px;
+        padding-right: 4%;
+    }
+
+    .person--4 {
+        margin-top: 75px;
+        margin-bottom: 0;
+        padding-left: 4%;
+    }
+
+    .person--5 {
+        margin-top: 0px;
+        padding-right: 4%;
+    }
+
+    .person--6 {
+        margin-top: 75px;
+        padding-left: 4%;
+    }
+
+    footer {
+        bottom: 1rem;
+    }
+}
+
+@media screen and (min-width : 1025px) and (max-width: 1300px) {
+    .main {
+        max-width: none;
+    }
+
+    .team--members {
+        gap: unset;
+        max-width: none;
+    }
+
+    .item {
+        padding-left: 3%;
+    }
+}
