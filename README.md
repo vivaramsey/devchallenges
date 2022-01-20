@@ -10,7 +10,7 @@ This is a solution to the [404 Not Found Page](https://devchallenges.io/challeng
 
 ## Links
 
-- Live Site URL - [vivamsey.github.io/404-page](https://vivaramsey.github.io/404-page)
+- Live Site URL - [vivamsey.github.io/404-page](https://vivaramsey.github.io/)
 - challenage URL - [404 page ](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
 
 ### Built with
