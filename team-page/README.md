@@ -12,7 +12,7 @@ This is a solution to the [Team Page](https://devchallenges.io/challenges/hhmesa
 
 ## Links
 
-- Live Site URL - [vivamsey.github.io/devchallengs/team-page](https://vivaramsey.github.io/team-page)
+- Live Site URL - [vivamsey.github.io/devchallenges/team-page](https://vivaramsey.github.io/devchallenges/team-page)
 - challenage URL - [team-page](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U)
 
 ### Built with
